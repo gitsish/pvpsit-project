@@ -1,0 +1,9 @@
+
+.navbar-logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%; /* Makes it Round */
+    object-fit: cover;
+    border: 3px solid white;
+  }
+  

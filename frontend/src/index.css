@@ -1,0 +1,61 @@
+/* Overall Page Styling */
+body {
+  background: linear-gradient(to bottom, #a3e635, #ffffff);
+  font-family: "Poppins", sans-serif;
+}
+
+/* Home Page Styling */
+.home-page {
+  background: linear-gradient(to bottom, #047857, #ffffff);
+  color: white;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+/* Carousel */
+.custom-carousel .carousel img {
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/* Carousel Caption */
+.custom-carousel .carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Welcome Section */
+h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* Feature Section */
+.feature-img {
+  border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-img:hover {
+  transform: scale(1.1);
+}
+
+/* Buttons */
+button {
+  background-color: #38a169;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #2f855a;
+}
